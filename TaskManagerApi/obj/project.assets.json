@@ -1785,52 +1785,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Domain": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "9.0.5"
+          "Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/Application.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "9.0.5"
-        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "Application": "1.0.0",
-          "Domain": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "9.0.5"
-        },
-        "compile": {
-          "bin/placeholder/Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Infrastructure.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Persistence/1.0.0": {
         "type": "project",
@@ -1838,19 +1810,14 @@
         "dependencies": {
           "Application": "1.0.0",
           "Domain": "1.0.0",
-          "Microsoft.AspNetCore.OpenApi": "9.0.5",
-          "Microsoft.EntityFrameworkCore": "9.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5"
+          "Microsoft.EntityFrameworkCore": "9.0.5"
         },
         "compile": {
           "bin/placeholder/Persistence.dll": {}
         },
         "runtime": {
           "bin/placeholder/Persistence.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },
@@ -5368,11 +5335,6 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    "Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
-    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
@@ -5385,7 +5347,6 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Domain >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.0",
-      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
@@ -5400,9 +5361,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManagerApi.csproj",
-      "projectName": "TaskManagerApi",
-      "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManagerApi.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj",
+      "projectName": "TaskManager",
+      "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -5430,9 +5391,6 @@
             },
             "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Domain\\Domain.csproj"
-            },
-            "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Infrastructure\\Infrastructure.csproj"
             },
             "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Persistence\\Persistence.csproj"
