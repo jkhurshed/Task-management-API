@@ -1,4 +1,4 @@
-namespace TaskManagerApi.Configurations;
+namespace Infrastructure.Configurations;
 
 public class JwtSettings
 {

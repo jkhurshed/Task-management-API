@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerApi\\TaskManager.csproj": {}
+    "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj": {}
   },
   "projects": {
     "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\Application\\Application.csproj": {
@@ -309,14 +309,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerApi\\TaskManager.csproj": {
+    "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerApi\\TaskManager.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj",
         "projectName": "TaskManager",
-        "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerApi\\TaskManager.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\TaskManager.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\c# code\\TaskManagerSolution\\TaskManagerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
